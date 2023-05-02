@@ -1,17 +1,33 @@
-nav {
+body {
+  background-color: #E5E5E5;
+  font-family: "poppins", Helvetica, sans-serif !important;
+}
+
+.App {
+  background-color: #fff;
+}
+
+.navbar-brand {
+  color: #6070FF !important;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.navbar.navbar-expand-lg.navbar-light.bg-light {
+  background-color: #fff !important;
+}
+
+.navigation {
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-end;
 }
 
-/* nav button {
-  border: none;
-  background: none;
-} */
-nav ul li {
-  list-style-type: none;
+.nav-link {
+  color: #344563 !important;
+  font-weight: 500 !important;
+  font-size: 15px;
+  margin-right: 40px;
 }
-
-
 
 .p {
   height: 500px;
@@ -31,18 +47,14 @@ nav ul li {
   margin: 4px;
 }
 
-#offcanvasNavbar-expand-expand {
-  background-color: #6070FF;
-  width: 100%;
-}
 
-.navbar-nav a {
+/* .navbar-nav a {
   text-decoration: none;
   color: #fff;
   font-size: 32px;
   font-weight: 600;
   margin-top: 40px;
-}
+} */
 
 /* .offcanvas-header .btn-close {
   color: #fff;
