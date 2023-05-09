@@ -1,55 +1,52 @@
 body {
   background-color: #E5E5E5;
-  font-family: "poppins", Helvetica, sans-serif !important;
+  font-family: "poppins", Helvetica, sans-serif;
 }
 
-.App {
+/* .App {
   background-color: #fff;
-}
+} */
 
 .navbar.navbar-expand-lg.navbar-light.bg-light {
   background-color: #fff !important;
 }
 
 .navbar-brand {
-  color: #6070FF !important;
+  color: #6070FF;
   font-weight: 700;
-  font-size: 18px !important;
+  font-size: 18px;
 }
 
 .nav-link {
-  /* color: #344563 !important; */
-  font-weight: 500 !important;
-  font-size: 15px !important;
+  /* color: #344563; */
+  font-weight: 500;
+  font-size: 15px;
   margin-right: 40px;
 }
 
 .navbar-toggler {
-  /* color: #6070FF !important; */
-  border: none !important;
-  color: transparent !important;
+  /* color: #6070FF; */
+  border: none;
+  color: transparent;
 }
 
 .navbar-toggler.collapsed {
-  color: #6070FF !important;
-  color: transparent !important;
-  border: none !important;
+  color: #6070FF;
+  color: transparent;
+  border: none;
 }
 
 .navbar-toggler-icon {
-  border-color: #6070FF !important;
-  /* border-color: transparent !important; */
+  border-color: #6070FF;
+  /* border-color: transparent; */
 
 }
 
-.active {
-  color: #6070FF !important;
-}
-.p {
+/* .p {
   height: 500px;
   border: 2px solid red;
   margin: 4px;
-}
+} */
 
 .a {
   height: 500px;
