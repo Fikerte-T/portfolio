@@ -25,7 +25,6 @@ body {
 }
 
 .navbar-toggler {
-  /* color: #6070FF; */
   border: none;
   color: transparent;
 }
@@ -38,15 +37,13 @@ body {
 
 .navbar-toggler-icon {
   border-color: #6070FF;
-  /* border-color: transparent; */
+}
+
+.navbar-nav .nav-link.active {
+  color: #6070FF;
 
 }
 
-/* .p {
-  height: 500px;
-  border: 2px solid red;
-  margin: 4px;
-} */
 .portfolio-container {
   background-color: #fff;
   border-bottom-left-radius: 60px;
@@ -61,9 +58,6 @@ body {
 .header-container {
   width: 98%;
   height: 100%;
-  /* margin: 40px 0px 76px 30px; */
-  /* padding: 48px 8px 76px 35px; */
-  /* border: 1px solid green; */
   background: url('/images/Header\ bg@2x.png') no-repeat;
   background-size: 100% 100%;
   display: flex;
@@ -116,7 +110,7 @@ body {
 .a {
   height: 500px;
   border: 2px solid green;
-  margin: 4px;
+  margin: 142px;
 }
 
 .c {
