@@ -58,7 +58,7 @@ body {
 .header-container {
   width: 98%;
   height: 100%;
-  background: url('/images/Header\ bg@2x.png') no-repeat;
+  background: url('/src/images/Header\ bg@2x.png') no-repeat;
   background-size: 100% 100%;
   display: flex;
   flex-direction: column;
@@ -111,6 +111,7 @@ body {
   height: 500px;
   border: 2px solid green;
   margin: 142px;
+  /* background-image: url('/images/Snapshoot-Portfolio-desktop-3.png'); */
 }
 
 .c {
