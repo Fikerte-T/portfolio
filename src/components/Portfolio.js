@@ -13,7 +13,7 @@ const Portfolio = () => (
 						If you like what you see and have a project you need coded, don’t hestiate to contact me.
 					</p>
 					<div className="header-link">
-						<a href="https://www.linkedin.com/in/fikerte-tesfaye/">Let's connect</a>
+						<a className='lets-connect' href="https://www.linkedin.com/in/fikerte-tesfaye/">Let's connect</a>
 					</div>
 				</div>	
 			</div>
@@ -22,8 +22,8 @@ const Portfolio = () => (
 			{/* <img src= {Snapshoot_Portfolio_desktop_3} alt="my-project" className="card-block"/> */}
 			<div className="image card-block"></div>
 			<div className="card-text card-block">
-				<h2>Project name</h2>
-				<p>Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.</p>
+				<h2 className="heading-2">Project name</h2>
+				<p className="paragraph">Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.</p>
 				<ul>
 					<li>HTML</li>
 					<li>CSS</li>
