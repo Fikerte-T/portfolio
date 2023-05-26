@@ -314,7 +314,7 @@ form,
     padding: 0 20px;
   }
 
-  .about-container {
+  .about-container, .form {
     padding: 100px 25px;
     width: 100%;
 
@@ -332,4 +332,14 @@ form,
     padding-left: 0;
     padding-right: 0;
   }
+
+  .contact-container {
+    height: 100%;
+  }
+  .form-container {
+    height: 100%;
+    background: url('./images/contact\ form\ shapes-mobile@2x.png') no-repeat;
+    background-size: 57% 90%;
+    background-position: 100%;
+   } 
 }
