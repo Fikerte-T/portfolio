@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, forwardRef } from 'react';
 import FloatingLabel from 'react-bootstrap/FloatingLabel';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
@@ -12,7 +12,6 @@ const Contact = () => {
         event.preventDefault();
         event.stopPropagation();
       }
-  
       setValidated(true);
     };
 
@@ -62,4 +61,4 @@ const Contact = () => {
     
 }
 
-export default Contact;
+export default forwardRef(Contact);
