@@ -203,7 +203,6 @@ li {
   display: flex;
   align-items: center;
   margin-top: 100px;
-  /* margin: auto; */
   padding: 100px;
 }
 
@@ -285,6 +284,32 @@ form,
   color: #f7f6ee;
 }
 
+.top-to-btm{
+  position: relative;
+}
+.icon-position{
+  position: fixed;
+  bottom: 40px;
+  right: 20px;
+  z-index: 20;
+}
+.icon-style{
+  background-color: #6070FF;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  color: #fff;
+  cursor: pointer;
+  transition: all .5s ease-in-out;
+}
+.icon-style:hover{
+  animation: none;
+  background: #fff;
+  color: #6070FF;
+  border: 2px solid #6070FF;
+}
+
 @media screen and (max-width: 992px) {
   .portfolio-container {
     padding: 0;
@@ -305,7 +330,6 @@ form,
 
   .project-cards {
     flex-direction: column;
-    /* margin: 114px 24px; */
   }
   
   .card {

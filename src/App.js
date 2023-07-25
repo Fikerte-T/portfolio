@@ -5,12 +5,14 @@ import Portfolio from './components/Portfolio';
 import About from './components/About';
 import Contact from './components/Contact';
 import ScrollToTop from './components/ScrollToTop';
+import ScrollToTopBtn from './components/ScrollToTopBtn';
 
 function App() {
 
   return (
     <div className="App">
       <Navbar />
+      <ScrollToTopBtn />
       <ScrollToTop>
         <Routes>
             <Route path="/" element={<Navigate to="/portfolio" />} />
