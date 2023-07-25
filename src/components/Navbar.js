@@ -1,10 +1,13 @@
-import React from "react";
-import {NavLink} from 'react-router-dom';
+import React, { useState } from "react";
+import {useLocation} from 'react-router-dom';
+import { HashLink } from "react-router-hash-link";
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 
 const MyNavbar = () => {
+  const { hash } = useLocation();
+  const isActive = (iHash) => hash === iHash;
   return (
     <Navbar bg="light" expand="lg">
       <Container>
@@ -12,9 +15,9 @@ const MyNavbar = () => {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">
-              <NavLink className="nav-link" to="/portfolio">Portfolio</NavLink>
-              <NavLink className="nav-link" to="/about">About</NavLink>
-              <NavLink className="nav-link" to="/contact">Contact</NavLink>
+              <HashLink className={`nav-link ${isActive("#portfolio") ? "active" : ""}`} to="/#portfolio">Portfolio</HashLink>
+              <HashLink className={`nav-link ${isActive("#about") ? "active" : ""}`}  to="/#about">About</HashLink>
+              <HashLink className={`nav-link ${isActive("#contact") ? "active" : ""}`}  to="/#contact">Contact</HashLink>
             </Nav>
           </Navbar.Collapse>
       </Container>

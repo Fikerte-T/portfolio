@@ -1,10 +1,8 @@
-import Navbar from './components/Navbar';
 import './App.css';
-import { Routes, Route, Navigate } from 'react-router-dom';
+import Navbar from './components/Navbar';
 import Portfolio from './components/Portfolio';
 import About from './components/About';
 import Contact from './components/Contact';
-import ScrollToTop from './components/ScrollToTop';
 import ScrollToTopBtn from './components/ScrollToTopBtn';
 
 function App() {
@@ -13,14 +11,9 @@ function App() {
     <div className="App">
       <Navbar />
       <ScrollToTopBtn />
-      <ScrollToTop>
-        <Routes>
-            <Route path="/" element={<Navigate to="/portfolio" />} />
-            <Route path="/portfolio" element={<Portfolio />} />
-            <Route path="/about" element={<About />} />
-            <Route path="/contact" element={<Contact />} />
-        </Routes>
-      </ScrollToTop>
+      <Portfolio />
+      <About />
+      <Contact />
     </div>
   );
 }

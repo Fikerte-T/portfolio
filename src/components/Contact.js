@@ -3,7 +3,7 @@ import FloatingLabel from 'react-bootstrap/FloatingLabel';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 
-const Contact = (props) => {
+const Contact = () => {
     const [validated, setValidated] = useState(false);
 
     const handleSubmit = (event) => {
@@ -20,7 +20,7 @@ const Contact = (props) => {
       setValue(event.target.value);
     };
     return (
-        <div className="contact-container portfolio-container">
+        <div id='contact' className="contact-container portfolio-container">
            
             <div className="form-container header-container">
                 <div className="form">

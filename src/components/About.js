@@ -1,7 +1,7 @@
 import React from "react";
 import { Accordion } from "react-bootstrap";
-const About = (props) => (
-    <div className="all-container">
+const About = () => (
+    <div id="about" className="all-container">
         <div className="about-container">
             <div className="about-text card-text">
                 <h2 className="heading-2">About Myself</h2>

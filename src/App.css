@@ -19,6 +19,10 @@ body {
   margin-right: 40px;
 }
 
+.navbar-nav .nav-link.active {
+  color: #6070FF;
+}
+
 .navbar-toggler {
   border: none;
   color: transparent;
@@ -32,11 +36,6 @@ body {
 
 .navbar-toggler-icon {
   border-color: #6070FF;
-}
-
-.navbar-nav .nav-link.active {
-  color: #6070FF;
-
 }
 
 .portfolio-container {
