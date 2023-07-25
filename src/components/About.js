@@ -1,6 +1,6 @@
 import React from "react";
 import { Accordion } from "react-bootstrap";
-const About = () => (
+const About = (props) => (
     <div className="all-container">
         <div className="about-container">
             <div className="about-text card-text">

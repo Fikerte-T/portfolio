@@ -1,4 +1,4 @@
-import React, { forwardRef } from "react";
+// import React, { forwardRef } from "react";
 import Button from 'react-bootstrap/Button';
 import budgetapp from '../images/proj-budgetapp.png';
 import spacex from '../images/proj-spacex.png';
@@ -82,4 +82,4 @@ const Portfolio = () => {
 );
 };
 
-export default forwardRef(Portfolio);
+export default Portfolio;

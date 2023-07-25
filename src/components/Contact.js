@@ -1,9 +1,9 @@
-import React, { useState, forwardRef } from 'react';
+import React, { useState } from 'react';
 import FloatingLabel from 'react-bootstrap/FloatingLabel';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 
-const Contact = () => {
+const Contact = (props) => {
     const [validated, setValidated] = useState(false);
 
     const handleSubmit = (event) => {
@@ -61,4 +61,4 @@ const Contact = () => {
     
 }
 
-export default forwardRef(Contact);
+export default Contact;
