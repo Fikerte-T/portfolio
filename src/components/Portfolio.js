@@ -1,10 +1,10 @@
 import React, { forwardRef } from "react";
 import Button from 'react-bootstrap/Button';
 import budgetapp from '../images/proj-budgetapp.png';
-import spacex from '../images/proj-spacex.jpg';
+import spacex from '../images/proj-spacex.png';
 import leaderboard from '../images/proj-leaderboard.png';
 import mathmagicians from '../images/proj-mathmagicians.png';
-// import Snapshoot_Portfolio_desktop_3 from '../images/Snapshoot_Portfolio_desktop_3.png';
+
 const Portfolio = () => {
 	const projects = [
 		{
