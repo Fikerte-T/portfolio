@@ -6,7 +6,6 @@ import Contact from './components/Contact';
 import ScrollToTopBtn from './components/ScrollToTopBtn';
 
 function App() {
-
   return (
     <div className="App">
       <Navbar />
