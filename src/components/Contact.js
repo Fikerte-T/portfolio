@@ -5,9 +5,9 @@ import FloatingLabel from 'react-bootstrap/FloatingLabel';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 
-const SERVICE_ID = 'service_stphbzb';
-const TEMPLATE_ID = 'template_c3g6qyt';
-const PUBLIC_KEY = 'ROnTu5vUZiuHaYNGl';
+const SERVICE_ID = process.env.REACT_APP_SERVICE_ID;
+const TEMPLATE_ID = process.env.REACT_APP_TEMPLATE_ID;
+const PUBLIC_KEY = process.env.REACT_APP_PUBLIC_KEY;
 
 const Contact = () => {
   const [validated, setValidated] = useState(false);
