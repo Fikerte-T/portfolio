@@ -9,7 +9,8 @@ const About = () => (
         <p className="paragraph">
           Hello I&apos;m a software developer! I can help you build a product ,
           feature or website Look through some of my work and experience!
-          If you like what you see and have a project you need coded, don&apos;t hesitate to contact me.
+          If you like what you see and have a project you need coded, don&apos;t
+          hesitate to contact me.
         </p>
         <div className="header-link">
           <a className="lets-connect" href="https://www.linkedin.com/in/fikerte-tesfaye/">Let&apos;s connect</a>
