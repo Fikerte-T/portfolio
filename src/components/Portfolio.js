@@ -49,16 +49,16 @@ const Portfolio = () => {
       <div className="portfolio-container">
         <div className="header-container">
           <div className="header-text">
-            <h1>I`&apos`m Fikerte.</h1>
+            <h1>I&apos;m Fikerte.</h1>
             <h1>Glad to see you!</h1>
             <p>
-              I’m a software developer! I can help you build a product,
+              I&apos;m a software developer! I can help you build a product,
               feature or website Look through some of my work and experience!
               If you like what you see and have a project you need coded,
-              don’t hestiate to contact me.
+              don&apos;t hestiate to contact me.
             </p>
             <div className="header-link">
-              <a className="lets-connect" href="https://www.linkedin.com/in/fikerte-tesfaye/">Let`&apos`s connect</a>
+              <a className="lets-connect" href="https://www.linkedin.com/in/fikerte-tesfaye/">Let&apos;s connect</a>
             </div>
           </div>
         </div>

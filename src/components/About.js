@@ -7,12 +7,12 @@ const About = () => (
       <div className="about-text card-text">
         <h2 className="heading-2">About Myself</h2>
         <p className="paragraph">
-          Hello I’m a software developer! I can help you build a product ,
+          Hello I&apos;m a software developer! I can help you build a product ,
           feature or website Look through some of my work and experience!
-          If you like what you see and have a project you need coded, don’t hesitate to contact me.
+          If you like what you see and have a project you need coded, don&apos;t hesitate to contact me.
         </p>
         <div className="header-link">
-          <a className="lets-connect" href="https://www.linkedin.com/in/fikerte-tesfaye/">Let`&apos`s connect</a>
+          <a className="lets-connect" href="https://www.linkedin.com/in/fikerte-tesfaye/">Let&apos;s connect</a>
         </div>
         <a href="https://docs.google.com/document/d/1OOsrvAiM94zisM4JAxgrKK0pifNroL7SLS1b6uLiNkc/edit?usp=sharing" className="btn-link">Get my resume</a>
       </div>
