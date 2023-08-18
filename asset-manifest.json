@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.431fae26.css",
+    "main.js": "/portfolio/static/js/main.69c5bfd6.js",
+    "static/media/proj-leaderboard.png": "/portfolio/static/media/proj-leaderboard.136fd67d9da16dd88264.png",
+    "static/media/proj-spacex.png": "/portfolio/static/media/proj-spacex.f77b55afc13649d3df8d.png",
+    "static/media/proj-mathmagicians.png": "/portfolio/static/media/proj-mathmagicians.931d4f4c249de6e51806.png",
+    "static/media/Header bg@2x.png": "/portfolio/static/media/Header bg@2x.f89056004fea307c93d7.png",
+    "static/media/contact form background shapes@2x.png": "/portfolio/static/media/contact form background shapes@2x.668a5821788c361ff965.png",
+    "static/media/proj-budgetapp.png": "/portfolio/static/media/proj-budgetapp.aab9c3feb466ae377400.png",
+    "index.html": "/portfolio/index.html",
+    "main.431fae26.css.map": "/portfolio/static/css/main.431fae26.css.map",
+    "main.69c5bfd6.js.map": "/portfolio/static/js/main.69c5bfd6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.431fae26.css",
+    "static/js/main.69c5bfd6.js"
+  ]
+}
