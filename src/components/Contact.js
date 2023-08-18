@@ -17,7 +17,6 @@ const Contact = () => {
         from_email: '',
         message: ''
     });
-    console.log(values)
     const handleChange = (e) => {
         setValues(values => ({
             ...values,
@@ -51,10 +50,7 @@ const Contact = () => {
     };
 
     const handleSubmit = (event) => {
-        console.log("validated is " + validated);
         const form = event.currentTarget;
-        console.log("checkvalidity is " + form.checkValidity())
-        console.log(validated === form.checkValidity())
         if (form.checkValidity() === false) {
           event.preventDefault();
           event.stopPropagation();

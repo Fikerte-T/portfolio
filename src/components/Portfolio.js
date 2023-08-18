@@ -69,8 +69,8 @@ const Portfolio = () => {
 							<h2 className="heading-2">{project.name}</h2>
 							<p className="paragraph">{project.description}</p>
 							<ul>
-								{project.languagesList.map((language) => (
-									<li>{language}</li>
+								{project.languagesList.map((language, index) => (
+									<li key={index}>{language}</li>
 								))}
 							</ul>
 							<Button variant="primary" onClick={() => handleClick(project.sourceLink)}>See Project</Button>{' '}

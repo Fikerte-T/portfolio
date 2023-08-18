@@ -16,7 +16,8 @@ body {
 .nav-link {
   font-weight: 500;
   font-size: 15px;
-  margin-right: 40px;
+  padding: 10px;
+  margin-right: 15px;
 }
 
 .navbar-nav .nav-link.active {
@@ -36,6 +37,11 @@ body {
 
 .navbar-toggler-icon {
   border-color: #6070FF;
+}
+
+.navbar-collapse.collapse.show .nav-link:hover {
+  background-color: #7f8cff;
+  color: #fff;
 }
 
 .portfolio-container {
