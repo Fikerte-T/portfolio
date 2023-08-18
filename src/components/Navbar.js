@@ -15,7 +15,7 @@ const MyNavbar = () => {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">
-            <HashLink className={`nav-link ${isActive('#portfolio') ? 'active' : ''}`} to="/#portfolio">Portfolio</HashLink>
+            <HashLink className={`nav-link ${isActive('#portfolio') ? 'active' : ''}`} to="/">Portfolio</HashLink>
             <HashLink className={`nav-link ${isActive('#about') ? 'active' : ''}`} to="/#about">About</HashLink>
             <HashLink className={`nav-link ${isActive('#contact') ? 'active' : ''}`} to="/#contact">Contact</HashLink>
           </Nav>
